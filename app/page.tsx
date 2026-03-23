@@ -4,21 +4,30 @@ import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
 import { TechStack } from "@/components/TechStack";
+import { FlipWords } from "@/components/ui/flip-words";
 
 export default function Home() {
+  const words = [
+    "Ayush",
+    "An AI Engineer",
+    "A Full Stack Developer",
+    "A Problem Solver",
+  ];
   return (
     <Container>
       <span className="text-4xl">👋</span>
-      <Heading className="font-black">Hello there! I&apos;m John</Heading>
+      <Heading className="font-black">
+        Hey! I&apos;m <FlipWords words={words} />
+      </Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a full-stack developer that loves{" "}
-        <Highlight>building products</Highlight> and web apps that can impact
-        millions of lives
+        I build
+        <Highlight>developer-focused</Highlight> AI systems and automation tools
+        that solve real-world problems.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a senior software engineer with{" "}
-        <Highlight>7 years of experience</Highlight> building scalable web apps
-        that are performance optimized and good looking.
+        Currently transitioning from full-stack engineering to{" "}
+        <Highlight>AI system design — focusing on LLMs</Highlight>, automation,
+        and scalable architectures.
       </Paragraph>
       <Heading
         as="h2"
