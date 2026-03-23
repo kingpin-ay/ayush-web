@@ -4,7 +4,7 @@
 #
 
 app = 'ayush-web'
-primary_region = 'iad'
+primary_region = 'bom'
 
 [build]
 
