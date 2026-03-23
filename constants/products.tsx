@@ -9,122 +9,98 @@ import sidefolioTailwindMasterKit2 from "../public/images/sidefolio-tailwindmast
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "#",
+    title: "AI Coding Copilot",
     description:
-      "A design and development studio that focuses on building quality apps.",
+      "Exploring AI-assisted development workflows using Claude, OpenCode, and MCP concepts.",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    stack: ["Nextjs", "Nodejs", "Claude", "MCP"],
+    slug: "ai-copilot",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Exploring how AI can assist real-world development workflows using
+          tools like Claude and OpenCode. Focused on understanding how context,
+          prompts, and tool integrations can improve developer productivity.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+          Experimenting with prompt chaining, debugging assistance, and early
+          agent-like workflows. Currently learning how to evolve from simple
+          prompting to structured AI systems with memory and tool access.
+        </p>
       </div>
     ),
   },
   {
-    href: "https://algochurn.com",
-    title: "Algochurn",
+    href: "#",
+    title: "Intelligent Uptime Monitor",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
+      "A developer-focused uptime monitoring system with intelligent alerting and future AI insights.",
     thumbnail: sidefolioAlgochurn,
     images: [sidefolioAlgochurn, sidefolioAlgochurn2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
+    stack: ["Nextjs", "Nodejs", "PostgreSQL", "Docker"],
+    slug: "uptime-monitor",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Building a SaaS product to monitor application uptime with real-time
+          alerts and performance tracking. Designed backend pipelines to
+          continuously check service health and notify users on failures.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+          Planning an AI layer to detect anomalies, reduce alert noise, and
+          provide smarter insights. Focused on turning a simple monitoring tool
+          into an intelligent decision-making system.
+        </p>
       </div>
     ),
   },
   {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    href: "#",
+    title: "AI Automation Workflows",
     description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
+      "Designing automation pipelines combining APIs, logic, and AI-driven decision making.",
     thumbnail: sidefolioMoonbeam,
     images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
+    stack: ["n8n", "APIs", "AI", "Automation"],
+    slug: "ai-automation",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Building automation workflows using tools like n8n to connect APIs,
+          business logic, and AI models. Designed systems for notifications,
+          data processing, and event-driven actions.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+          Exploring how AI can act as a decision layer inside workflows,
+          enabling smarter automation. Goal is to build autonomous systems that
+          reduce manual operations.
+        </p>
       </div>
     ),
   },
   {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    href: "#",
+    title: "RAG Knowledge Assistant",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
+      "Learning Retrieval-Augmented Generation to build context-aware AI systems.",
     thumbnail: sidefolioTailwindMasterKit,
     images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "tailwindmasterkit",
+    stack: ["LangChain", "Vector DB", "OpenAI", "Nodejs"],
+    slug: "rag-assistant",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Studying how RAG (Retrieval-Augmented Generation) works to improve LLM
+          reliability. Learning embeddings, vector search, and document-based
+          question answering systems.
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+          Goal is to build AI applications that are grounded in real data and
+          reduce hallucinations. Currently experimenting with document ingestion
+          and semantic search pipelines.
+        </p>
       </div>
     ),
   },
